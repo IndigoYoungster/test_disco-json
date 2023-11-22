@@ -19,7 +19,7 @@
 		  },
 		  "wss": {
 			"dl": "wss://dltest.radix.matriksdata.com:443/news",
-			"rt": "wss://rttest.radix.matriksdata.com/news"
+			"rt": "wss://rttest.radix.matriksdata.com/news/lesha-the-best"
 		  },
 		  "tcp": {
 			"dl": "tcp://dltest.radix.matriksdata.com:3452",
