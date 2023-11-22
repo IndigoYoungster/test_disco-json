@@ -1,0 +1,64 @@
+{
+	"rest": {
+	  "topach": {
+		"url": "https://apitest.matriksdata.com/dumrul/v1/topach",
+		"parameters": [
+  
+		],
+		"gzAvailable": true
+	  }
+	},
+	"mqtt": {
+	  "mx/news": {
+		"qos": {
+		  "dl": "wss://dltest.radix.matriksdata.com:443/news",
+		  "rt": "wss://rttest.radix.matriksdata.com/news",
+		  "ws": {
+			"dl": "ws://dltest.radix.matriksdata.com/news",
+			"rt": "ws://rttest.radix.matriksdata.com/news"
+		  },
+		  "wss": {
+			"dl": "wss://dltest.radix.matriksdata.com:443/news",
+			"rt": "wss://rttest.radix.matriksdata.com/news"
+		  },
+		  "tcp": {
+			"dl": "tcp://dltest.radix.matriksdata.com:3452",
+			"rt": "tcp://rttest.radix.matriksdata.com:3442"
+		  }
+		}
+	  },
+	  "mx/news@comment": {
+		"qos": {
+		  "dl": "wss://dltest.radix.matriksdata.com:443/news",
+		  "rt": "wss://rttest.radix.matriksdata.com/news",
+		  "ws": {
+			"dl": "ws://dltest.radix.matriksdata.com/news",
+			"rt": "ws://rttest.radix.matriksdata.com/news"
+		  },
+		  "wss": {
+			"dl": "wss://dltest.radix.matriksdata.com:443/news",
+			"rt": "wss://rttest.radix.matriksdata.com/news"
+		  },
+		  "tcp": {
+			"dl": "tcp://dltest.radix.matriksdata.com:3452",
+			"rt": "tcp://rttest.radix.matriksdata.com:3442"
+		  }
+		}
+	  },
+	  "mx/news@kap": {
+		"qos": {
+		  "rt": "wss://rttest.radix.matriksdata.com/news",
+		  "ws": {
+			"rt": "wss://rttest.radix.matriksdata.com/news"
+		  },
+		  "wss": {
+			"rt": "wss://rttest.radix.matriksdata.com/news"
+		  },
+		  "tcp": {
+			"dl": "",
+			"rt": "tcp://rttest.radix.matriksdata.com:3442"
+		  }
+		}
+	  }
+	}
+  }   
